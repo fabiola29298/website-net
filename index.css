@@ -33,7 +33,7 @@ h1{
   font-size: 3rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 65px;
+  line-height: 3rem;
   margin-block: 0;
   color: #fff;
 }
@@ -46,7 +46,7 @@ h3{
 
 }
 p{
-  line-height: 26px;
+  /* line-height: 1rem; */
   color: #fff;
 }
 a{
@@ -105,7 +105,7 @@ a{
 }
  /* description   */
  .description{
-  padding: 1rem;
+  padding: 2.5rem 1rem;
  }
  .subtitle{
   color: var(--primary);
@@ -141,6 +141,12 @@ a{
   }
 
   /* End footer    */
+  /* mail    */
+#mc_embed_signup {
+  background: var(--accent);
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+}
 /* Mobile Styles */
 @media only screen and (max-width: 720px) {
 

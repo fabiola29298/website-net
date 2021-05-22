@@ -1,0 +1,152 @@
+
+:root {
+    font-size: 18px;
+    --primary: #01579b;
+    --primaryDark: #0288d1;
+    --accent: #80d8ff;
+    --gray: #455a64;
+    --gradient: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
+}
+html{
+
+}
+body{
+  font-family: 'Oxygen', sans-serif;
+  background: var(--accent);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home-bottom{
+  color: black;
+  padding-block: 13px;
+  padding-inline: 13px;
+  border: 2px solid var(--accent);
+  background: var(--accent);
+  letter-spacing: 1px;
+  border-radius: .5rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.home-bottom:hover{
+  color: #fff;
+  border: 2px solid var(--gray);
+  background: var(--gray);
+}
+/* Fin de Menu */
+h1{
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 65px;
+  margin-block: 0;
+  color: #fff;
+}
+h3{
+  font-size: 1.8rem;
+  font-style: normal;
+  line-height: 57px;
+  margin-block: 0;
+  color: var(--accent);
+
+}
+p{
+  line-height: 26px;
+  color: #fff;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+/* hero    */
+.hero{
+  background: var(--primary);
+  padding: 1rem;
+}
+.header-title{
+  font-size: 1.5rem;
+   font-weight: 800;
+}
+.home-group-text{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+
+}
+.image{
+  max-inline-size: 16rem;
+  min-inline-size: 10rem;
+  text-align: center;
+}
+.image img{
+  width: 80%;
+}
+.group-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.group-horizontal{
+  display: flex;
+  gap: 1rem;
+  margin-inline: 2rem;
+}
+/* End hero    */
+
+.home-presentation{
+  background: var(--primary);
+  padding: 1rem;
+}
+.wrapper{
+  max-inline-size: 900px;
+  margin: auto;
+}
+ /* description   */
+ .description{
+  padding: 1rem;
+ }
+ .subtitle{
+  color: var(--primary);
+ }
+ .paragraph{
+   color: #111;
+ }
+ /* End description   */
+
+  /* footer    */
+  .footer{
+    background: var(--primary);
+    padding: 1rem;
+  }
+  .footer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer-social{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .social-item{
+    background: var(--accent);
+    letter-spacing: 1px;
+    border-radius: .5rem;
+    padding-block: .5rem;
+    padding-inline: .5rem;
+    width: 1.5rem;
+  }
+  /* End footer    */
+/* Mobile Styles */
+@media only screen and (max-width: 720px) {
+
+  .home-group-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-content{
+    display: flex;
+    flex-direction: column;
+  }
+}

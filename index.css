@@ -5,10 +5,6 @@
     --primaryDark: #0288d1;
     --accent: #80d8ff;
     --gray: #455a64;
-    --gradient: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
-}
-html{
-
 }
 body{
   font-family: 'Oxygen', sans-serif;

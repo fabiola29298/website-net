@@ -1,14 +1,15 @@
 
 :root {
     font-size: 18px;
-    --primary: #01579b;
-    --primaryDark: #0288d1;
-    --accent: #80d8ff;
+    --primary: #80cbc4;
+    --accent: #26a69a;
     --gray: #455a64;
 }
 body{
   font-family: 'Oxygen', sans-serif;
-  background: var(--accent);
+  /* background: url('./img/mobile.jpg') no-repeat center; */
+  background: url('https://images.unsplash.com/photo-1583423842361-403513ff6b2f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1532&q=80') no-repeat center;
+  background-size: cover;
   margin: 0;
   padding: 0;
 }
@@ -35,7 +36,6 @@ h1{
   font-weight: 700;
   line-height: 3rem;
   margin-block: 0;
-  color: #fff;
 }
 h3{
   font-size: 1.8rem;
@@ -47,7 +47,7 @@ h3{
 }
 p{
   /* line-height: 1rem; */
-  color: #fff;
+  /* color: #fff; */
 }
 a{
   text-decoration: none;
@@ -87,28 +87,34 @@ a{
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  margin-inline: 2rem;
+  /* margin-inline: 2rem; */
 }
 .home-bottom{
   flex: 0 1 150px;
   margin: 5px;
 }
 /* End hero    */
-
+#home{
+  /* display: inline-flex; */
+  /* flex-wrap: wrap; */
+}
 .home-presentation{
-  background: var(--primary);
+  /* background: var(--primary); */
   padding: 1rem;
 }
 .wrapper{
   max-inline-size: 900px;
   margin: auto;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 2rem;
+  border-radius: 8px;
 }
  /* description   */
  .description{
   padding: 2.5rem 1rem;
  }
  .subtitle{
-  color: var(--primary);
+  color: var(--accent);
  }
  .paragraph{
    color: #111;
@@ -142,21 +148,34 @@ a{
 
   /* End footer    */
   /* mail    */
+  .description{
+    /* background: rgba(0, 0, 0, 0.2);; */
+
+  }
 #mc_embed_signup {
-  background: var(--accent);
   clear: left;
-  font: 14px Helvetica, Arial, sans-serif;
+  font: 14px 'Oxygen', sans-serif;
+  /* max-width: 750px; */
+  width: 100%;
 }
 /* Mobile Styles */
 @media only screen and (max-width: 720px) {
-
+  .wrapper{
+    padding: 0.5rem;
+  }
   .home-group-text{
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+  .footer{
+    padding: 1rem;
+  }
   .footer-content{
     display: flex;
     flex-direction: column;
+  }
+  .footer-content p{
+    font-size: 0.7rem;
   }
 }

@@ -59,6 +59,11 @@ a{
   padding-block: 2rem 10rem;
 }
 /* hero    */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .hero{
   background: var(--primary);
   padding: 1rem;

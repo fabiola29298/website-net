@@ -8,15 +8,17 @@
 body{
   font-family: 'Oxygen', sans-serif;
   /* background: url('./img/mobile.jpg') no-repeat center; */
-  background: url('https://images.unsplash.com/photo-1583423842361-403513ff6b2f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1532&q=80') no-repeat center;
+  /* background: url('https://images.unsplash.com/photo-1583423842361-403513ff6b2f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1532&q=80') no-repeat center; */
+  background: url('https://images.unsplash.com/photo-1612277364679-a14c63e8b6c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center;
+
   background-size: cover;
   margin: 0;
   padding: 0;
 }
 .home-bottom{
-  color: black;
-  padding-block: 13px;
-  padding-inline: 13px;
+  color: #fff;
+  padding-block: .5rem;
+  padding-inline: 1.2rem;
   border: 2px solid var(--accent);
   background: var(--accent);
   letter-spacing: 1px;
@@ -45,13 +47,16 @@ h3{
   color: var(--accent);
 
 }
-p{
+p, label, h1{
   /* line-height: 1rem; */
-  /* color: #fff; */
+  color: #fff;
 }
 a{
   text-decoration: none;
   color: #fff;
+}
+.main{
+  padding-block: 2rem 10rem;
 }
 /* hero    */
 .hero{
@@ -103,9 +108,9 @@ a{
   padding: 1rem;
 }
 .wrapper{
-  max-inline-size: 900px;
+  max-inline-size: 750px;
   margin: auto;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(0, 0, 0, 0.6);
   padding: 2rem;
   border-radius: 8px;
 }
@@ -145,7 +150,9 @@ a{
     width: 1.5rem;
     cursor: pointer;
   }
-
+  .footer * p{
+    color: #000;
+  }
   /* End footer    */
   /* mail    */
   .description{
@@ -155,25 +162,29 @@ a{
 #mc_embed_signup {
   clear: left;
   font: 14px 'Oxygen', sans-serif;
+  border: none;
   /* max-width: 750px; */
   width: 100%;
 }
 /* Mobile Styles */
 @media only screen and (max-width: 720px) {
+
+  .main{
+    padding-block: 1rem 2rem;
+  }
   .wrapper{
     padding: 0.5rem;
   }
   .home-group-text{
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
   .footer{
     padding: 1rem;
   }
   .footer-content{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .footer-content p{
     font-size: 0.7rem;

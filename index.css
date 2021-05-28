@@ -164,6 +164,9 @@ header{
     /* background: rgba(0, 0, 0, 0.2);; */
 
   }
+  .indicates-required{
+    color: #fff;
+  }
 #mc_embed_signup {
   clear: left;
   font: 14px 'Oxygen', sans-serif;

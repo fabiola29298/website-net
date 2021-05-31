@@ -115,7 +115,7 @@ header{
 .wrapper{
   max-inline-size: 750px;
   margin: auto;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.8);
   padding: 2rem;
   border-radius: 8px;
 }
@@ -128,6 +128,9 @@ header{
  }
  .paragraph{
    color: #111;
+ }
+ .group-column > p, .group-column > h3{
+   text-align: center;
  }
  /* End description   */
 
@@ -174,6 +177,9 @@ header{
   /* max-width: 750px; */
   width: 100%;
 }
+#mc-embedded-subscribe{
+  margin: auto !important;
+}
 /* Mobile Styles */
 @media only screen and (max-width: 720px) {
 
@@ -181,7 +187,7 @@ header{
     padding-block: 1rem 2rem;
   }
   .wrapper{
-    padding: 0.5rem;
+    padding: 1rem;
   }
   .home-group-text{
     display: flex;

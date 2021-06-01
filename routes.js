@@ -274,9 +274,7 @@ const routes = [
             <h3 class="h3" id="text2">Dann haben Sie es verdient, bekannt zu werden!</h3>
 
             <!-- <h1 class="h1">Netikoo</h1> -->
-            <p id="text3">Unser Projekt: Aufbau eines Netzwerks zur Unterstützung ethischer Projekte in allen Arten von Branchen. \n
-            Bitte helfen Sie uns, Ihre Bedürfnisse besser zu verstehen, indem Sie den folgenden Fragebogen ausfüllen, damit wir die
-            die perfekte Lösung für Sie zu finden!</p>
+            <p id="text3">Unser Projekt: Aufbau eines Netzwerks zur Unterstützung ethischer Projekte in allen Arten von Branchen.</p>
             <p id="text4">Bitte helfen Sie uns, Ihre Bedürfnisse besser zu verstehen, indem Sie den folgenden Fragebogen ausfüllen, so können wir
             die perfekte Lösung für Sie!</p>
             <div class="group-horizontal">

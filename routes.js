@@ -87,7 +87,7 @@ const routes = [
     </div>`
   },
   {
-    path: '/contacto',
+    path: '/es',
     template: `
     <div id="home" class="home-presentation">
         <div class="wrapper">
@@ -171,7 +171,7 @@ const routes = [
     </div>`
   },
   {
-    path: '/about',
+    path: '/fr',
     template: `
     <div id="home" class="home-presentation">
         <div class="wrapper">

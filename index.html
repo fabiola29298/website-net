@@ -38,8 +38,13 @@
   </div>
 
   <main class="main">
-
-
+      <ul>
+        <li><button onclick="router.loadRoute('')">home</button></li>
+        <li><button onclick="router.loadRoute('contacto')">contacto</button></li>
+        <li><button onclick="router.loadRoute('about')">about me</button></li>
+      </ul>
+      <div data-router>
+      </div>
       <div id="home" class="home-presentation">
           <div class="wrapper">
             <div class="home-group-text">
@@ -146,6 +151,8 @@
       </div>
     </div>
   </footer>
+  <script src="./router.js"></script>
+  <script src="./routes.js"></script>
   <script src="./index.js"></script>
 
 </body>

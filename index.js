@@ -1,3 +1,4 @@
+const router = new Router(routes);
 // let options = document.querySelector('.options');
 document.querySelectorAll('.options').forEach(options =>
     options.addEventListener("click", () => {

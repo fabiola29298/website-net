@@ -20,10 +20,10 @@ const routes = [
             <p id="text4">Please help us to better understand your needs by filling in the following questionnaire, this will allow us to build
             the perfect solution for you!</p>
             <div class="group-horizontal">
-              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=af3385bbc5"><button class="home-bottom">  French </button></a>
-              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=6bc967be47"><button class="home-bottom">  Spanish </button></a>
+              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=af3385bbc5"><button class="home-bottom">  Français </button></a>
+              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=6bc967be47"><button class="home-bottom">  Español </button></a>
               <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=2575bd0706"><button class="home-bottom">  English </button></a>
-              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=32142e30b2"><button class="home-bottom">  German </button></a>
+              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=32142e30b2"><button class="home-bottom">  Deutsch </button></a>
 
 
             </div>
@@ -98,7 +98,7 @@ const routes = [
             ¿Te apasiona el desarrollo sostenible? \n
             ¿Eres una empresa, una asociación, un experto o un particular y quieres contribuir a la construcción de un mundo mejor? \n
             ¿Luchas a diario por los valores?</p>
-            <h3 class="h3" id="text2">¡Entonces mereces conocernos! </h3>
+            <h3 class="h3" id="text2">¡Entonces merecés que te conozcan! </h3>
             <!-- <h1 class="h1">Netikoo</h1> -->
             <p id="text3">Nuestro proyecto: construir una red de apoyo a proyectos éticos en todo tipo de industrias. \n
             Por favor, ayúdanos a entender mejor tus necesidades rellenando el siguiente cuestionario, esto nos permitirá construir
@@ -106,10 +106,10 @@ const routes = [
             <p id="text4">Por favor, ayúdenos a entender mejor sus necesidades rellenando el siguiente cuestionario, esto nos permitirá construir
             la solución perfecta para usted.</p>
             <div class="group-horizontal">
-              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=af3385bbc5"><button class="home-bottom">  French </button></a>
-              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=6bc967be47"><button class="home-bottom">  Spanish </button></a>
+              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=af3385bbc5"><button class="home-bottom">  Français </button></a>
+              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=6bc967be47"><button class="home-bottom">  Español </button></a>
               <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=2575bd0706"><button class="home-bottom">  English </button></a>
-              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=32142e30b2"><button class="home-bottom">  German </button></a>
+              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=32142e30b2"><button class="home-bottom">  Deutsch </button></a>
 
 
             </div>
@@ -192,10 +192,10 @@ const routes = [
             <p id="text4">Veuillez nous aider à mieux comprendre vos besoins en remplissant le questionnaire suivant, cela nous permettra de construire
             la solution parfaite pour vous !</p>
             <div class="group-horizontal">
-              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=af3385bbc5"><button class="home-bottom">  French </button></a>
-              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=6bc967be47"><button class="home-bottom">  Spanish </button></a>
+              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=af3385bbc5"><button class="home-bottom">  Français </button></a>
+              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=6bc967be47"><button class="home-bottom">  Español </button></a>
               <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=2575bd0706"><button class="home-bottom">  English </button></a>
-              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=32142e30b2"><button class="home-bottom">  German </button></a>
+              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=32142e30b2"><button class="home-bottom">  Deutsch </button></a>
 
 
             </div>
@@ -259,7 +259,7 @@ const routes = [
     </div>`
   },
   {
-    path: '/gr',
+    path: '/de',
     template: `
     <div id="home" class="home-presentation">
         <div class="wrapper">
@@ -280,10 +280,10 @@ const routes = [
             <p id="text4">Bitte helfen Sie uns, Ihre Bedürfnisse besser zu verstehen, indem Sie den folgenden Fragebogen ausfüllen, so können wir
             die perfekte Lösung für Sie!</p>
             <div class="group-horizontal">
-              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=af3385bbc5"><button class="home-bottom">  French </button></a>
-              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=6bc967be47"><button class="home-bottom">  Spanish </button></a>
+              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=af3385bbc5"><button class="home-bottom">  Français </button></a>
+              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=6bc967be47"><button class="home-bottom">  Español </button></a>
               <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=2575bd0706"><button class="home-bottom">  English </button></a>
-              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=32142e30b2"><button class="home-bottom">  German </button></a>
+              <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=32142e30b2"><button class="home-bottom">  Deutsch </button></a>
 
 
             </div>

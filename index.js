@@ -27,7 +27,7 @@ var language = {
     the perfect solution for you!`,
     text4:`Please help us to better understand your needs by filling in the following questionnaire, this will allow us to build
     the perfect solution for you!`,
-    titleForm: `Become part of the Netikoo member!`,
+    titleForm: `Become part of the Netikoo membership!`,
     email: `E-mail`,
     firstName: `First Name`,
     lastName: `Last Name`,

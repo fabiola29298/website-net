@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+  <title>Netikoo</title>
+  <meta property="og:title" content="Netikoo" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://netikoo.com/" />
+  <meta property="og:image" content="https://sdgsc.itb.ac.id/wp-content/uploads/sites/333/2019/11/17-1.png" />
+  <meta property="og:description" content="Are you passionate about sustainable development? Do you fight for values on a daily basis? Then you deserve to be known!" />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+</head>
+
+
+<body>
+
+   <div class="hero">
+    <div class="hero-content">
+      <header>
+        <a class="header-title" href="#home"> NETIKOO</a>
+        <div class="header-menu">
+          <!-- <a href="#proyectos"> Idioma</a> -->
+          <select name="select" class="options">
+            <option value="default">Language</option>
+            <option value="en">English</option>
+            <option value="es">Spanish</option>
+            <option value="fr">French</option>
+            <option value="gr">German</option>
+          </select>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  <main class="main">
+      <ul>
+        <li><button onclick="router.loadRoute('')">home</button></li>
+        <li><button onclick="router.loadRoute('contacto')">contacto</button></li>
+        <li><button onclick="router.loadRoute('about')">about me</button></li>
+      </ul>
+      <div data-router>
+      </div>
+      <div id="home" class="home-presentation">
+          <div class="wrapper">
+            <div class="home-group-text">
+            <!-- <div class="image"><img src="./img/casa-01.png" width="150px" alt="Imagen de una casa con paneles solares"></div> -->
+            <div class="group-column">
+              <p id="siteContent">
+                Are you passionate about sustainable development? <br>
+                Are you a company, an association, an expert or an individual and do you want
+                to contribute to the construction of a
+                better world? <br>
+                Do you fight for values on a daily basis?
+              </p>
+              <h3 class="h3" id="text2">Then you deserve to be known! </h3>
+              <!-- <h1 class="h1">Netikoo</h1> -->
+              <p id="text3"><b>Our project:</b> build a network to support ethical projects in all types of industries. </p>
+              <p id="text4">Please help us to better understand your needs by filling in the following questionnaire, this will allow us to build
+              the perfect solution for you!</p>
+              <div class="group-horizontal">
+                <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=af3385bbc5"><button class="home-bottom">  French </button></a>
+                <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=6bc967be47"><button class="home-bottom">  Spanish </button></a>
+                <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=2575bd0706"><button class="home-bottom">  English </button></a>
+                <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=32142e30b2"><button class="home-bottom">  German </button></a>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <a class="header-title" href="#home"> NETIKOO</a>
+      <p>Copyright 2021 - All rights reserved. <br>
+      <!-- Photo by <a href="https://unsplash.com/@djjabbua?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David -->
+        <!-- Torres</a> on <a href="https://unsplash.com/s/photos/bolivia-lake?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> </p> -->
+
+      <div class="footer-social">
+        <p><b>Contact</b> <br>
+         <b>Email:</b> helene.menard.consultora@gmail.com  <br>
+         <b>Cellphone: </b> +591 77734990</p>
+        <!-- <i class="social-item" href="#"><img src="./img/icons/icon-phone.svg" alt="Icono de Celular" width="25px"></i> -->
+        <!-- <i class="social-item" href="#"><img src="./img/icons/icon-mail.svg" alt="Icono de correo"  width="25px" ></i> -->
+        <!-- <i class="social-item" href="#"><img src="./img/icons/icon-instagram.svg" alt="Icono de Instagram" width="25px" ></i> -->
+        <!-- <i class="social-item"><img src="./img/icons/icon-twitter.svg" alt="Icono de "></i> -->
+      </div>
+    </div>
+  </footer>
+  <script src="./router.js"></script>
+  <script src="./routes.js"></script>
+  <script src="./index.js"></script>
+
+</body>
+
+</html>

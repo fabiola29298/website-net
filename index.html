@@ -25,24 +25,29 @@
         <a class="header-title" href="#home"> NETIKOO</a>
         <div class="header-menu">
           <!-- <a href="#proyectos"> Idioma</a> -->
-          <select name="select" class="options">
+
+          <a onclick="router.loadRoute('')"><u>EN</u></a>
+          <a onclick="router.loadRoute('contacto')"><u>ES</u></a>
+          <a onclick="router.loadRoute('about')"><u>FR</u></a>
+          <a onclick="router.loadRoute('gr')"><u>GR</u></a>
+          <!-- <select name="select" class="options">
             <option value="default">Language</option>
-            <option value="en">English</option>
-            <option value="es">Spanish</option>
-            <option value="fr">French</option>
+            <option value="en" onclick="router.loadRoute('')">English</option>
+            <option value="es" onclick="router.loadRoute('contacto')">Spanish</option>
+            <option value="fr" onclick="router.loadRoute('about')">French</option>
             <option value="gr">German</option>
-          </select>
+          </select> -->
         </div>
       </header>
     </div>
   </div>
 
   <main class="main">
-      <ul>
+      <!-- <ul>
         <li><button onclick="router.loadRoute('')">home</button></li>
         <li><button onclick="router.loadRoute('contacto')">contacto</button></li>
         <li><button onclick="router.loadRoute('about')">about me</button></li>
-      </ul>
+      </ul> -->
       <div data-router>
       </div>
 

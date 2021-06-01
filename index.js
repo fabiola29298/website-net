@@ -1,18 +1,18 @@
 const router = new Router(routes);
 // let options = document.querySelector('.options');
-document.querySelectorAll('.options').forEach(options =>
-    options.addEventListener("click", () => {
-      if(options.value != 'default'){
-        console.log(options.value);
-        // changeLanguage(options.value);
-        // Create a function to change
-        // the hash value of the page
-        location.hash = options.value;
-        location.reload();
-      }
+// document.querySelectorAll('.options').forEach(options =>
+//     options.addEventListener("click", () => {
+//       if(options.value != 'default'){
+//         console.log(options.value);
+//         // changeLanguage(options.value);
+//         // Create a function to change
+//         // the hash value of the page
+//         location.hash = options.value;
+//         location.reload();
+//       }
 
 
-  }));
+//   }));
 
 // Define the language reload anchors
 var language = {
@@ -85,37 +85,37 @@ var language = {
   }
 };
 
-// Check if a hash value exists in the URL
-if (window.location.hash) {
+// // Check if a hash value exists in the URL
+// if (window.location.hash) {
 
-  // Set the content of the webpage
-  // depending on the hash value
-  if (window.location.hash == "#es") {
-    siteContent.textContent = language.es.welcome;
-    text2.textContent = language.es.text2;
-    text3.textContent = language.es.text3;
-    text4.textContent = language.es.text4;
-    titleForm.textContent = language.es.titleForm;
-  }
-  else if (window.location.hash == "#fr") {
-    siteContent.textContent =  language.fr.welcome;
-    text2.textContent = language.fr.text2;
-    text3.textContent = language.fr.text3;
-    text4.textContent = language.fr.text4;
-    titleForm.textContent = language.fr.titleForm;
-  }
-  else if (window.location.hash == "#gr") {
-    siteContent.textContent =  language.gr.welcome;
-    text2.textContent = language.gr.text2;
-    text3.textContent = language.gr.text3;
-    text4.textContent = language.gr.text4;
-    titleForm.textContent = language.gr.titleForm;
-  }
-  else if (window.location.hash == "#en") {
-    siteContent.textContent = language.en.welcome;
-    text2.textContent = language.en.text2;
-    text3.textContent = language.en.text3;
-    text4.textContent = language.en.text4;
-    titleForm.textContent = language.en.titleForm;
-  }
-}
+//   // Set the content of the webpage
+//   // depending on the hash value
+//   if (window.location.hash == "#es") {
+//     siteContent.textContent = language.es.welcome;
+//     text2.textContent = language.es.text2;
+//     text3.textContent = language.es.text3;
+//     text4.textContent = language.es.text4;
+//     titleForm.textContent = language.es.titleForm;
+//   }
+//   else if (window.location.hash == "#fr") {
+//     siteContent.textContent =  language.fr.welcome;
+//     text2.textContent = language.fr.text2;
+//     text3.textContent = language.fr.text3;
+//     text4.textContent = language.fr.text4;
+//     titleForm.textContent = language.fr.titleForm;
+//   }
+//   else if (window.location.hash == "#gr") {
+//     siteContent.textContent =  language.gr.welcome;
+//     text2.textContent = language.gr.text2;
+//     text3.textContent = language.gr.text3;
+//     text4.textContent = language.gr.text4;
+//     titleForm.textContent = language.gr.titleForm;
+//   }
+//   else if (window.location.hash == "#en") {
+//     siteContent.textContent = language.en.welcome;
+//     text2.textContent = language.en.text2;
+//     text3.textContent = language.en.text3;
+//     text4.textContent = language.en.text4;
+//     titleForm.textContent = language.en.titleForm;
+//   }
+// }

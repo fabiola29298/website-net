@@ -35,6 +35,8 @@ const routes = [
       <div class="wrapper">
         <div class="group-column">
           <h3 class="subtitle" id="titleForm">I want to be a Netikoo member! </h3>
+          <p>Are you interested in being part of a network of ethical entities? You want to know more about our concept and the services we want to offer you?
+          You want to be informed as soon as the platform is officially launched? Then join us now! 😊</p>
           <!-- <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, provident facere quaerat explicabo libero saepe harum delectus debitis ex molestiae suscipit similique alias aliquid hic sit minus, nemo optio tenetur.</p> -->
             <!-- Begin Mailchimp Signup Form -->
             <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
@@ -102,7 +104,7 @@ const routes = [
             <!-- <h1 class="h1">Netikoo</h1> -->
             <p id="text3">Nuestro proyecto: construir una red de apoyo a proyectos éticos en todo tipo de industrias.  </p>
             <p id="text4">Por favor, ayúdenos a entender mejor sus necesidades rellenando el siguiente cuestionario, esto nos permitirá construir
-            la solución perfecta para usted.</p>
+            la solución perfecta para tí.</p>
             <div class="group-horizontal">
               <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=af3385bbc5"><button class="home-bottom">  Français </button></a>
               <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=6bc967be47"><button class="home-bottom">  Español </button></a>
@@ -119,7 +121,8 @@ const routes = [
       <div class="wrapper">
         <div class="group-column">
           <h3 class="subtitle" id="titleForm">¡Forma parte de los miembros de Netikoo! </h3>
-
+          <p> ¿Te gustaría formar parte de una red de entidades éticas? ¿Quieres saber más sobre nuestro concepto y los servicios que queremos ofrecerle? ¿Quieres estar
+           informado/informada tan pronto como se lance oficialmente la plataforma? Entonces, ¡únete a nosotros ahora! 😊</p>
             <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
             <div id="mc_embed_signup">
               <form action="https://gmail.us6.list-manage.com/subscribe/post?u=2b5a8959555ecbcebd4bfb52e&amp;id=77122ce9ea"
@@ -202,6 +205,8 @@ const routes = [
       <div class="wrapper">
         <div class="group-column">
           <h3 class="subtitle" id="titleForm">Rejoignez nos membres de Netikoo !</h3>
+          <p>Faire partie d’un réseau d’entités éthiques vous séduit ? Vous avez envie d’en savoir plus sur notre concept et les services que nous voulons vous proposer ? Vous souhaitez être informé(e) dès le lancement
+          officiel de la plateforme ? Alors rejoignez-nous dès maintenant ! 😊 </p>
           <!-- <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, provident facere quaerat explicabo libero saepe harum delectus debitis ex molestiae suscipit similique alias aliquid hic sit minus, nemo optio tenetur.</p> -->
             <!-- Begin Mailchimp Signup Form -->
             <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
@@ -286,6 +291,8 @@ const routes = [
       <div class="wrapper">
         <div class="group-column">
           <h3 class="subtitle" id="titleForm">Werden Sie Teil des Netikoo-Mitglieds! </h3>
+          <p>Fühlen Sie sich angesprochen, Teil eines Netzwerks von ethischen Einrichtungen zu sein? Sie möchten mehr über unser Konzept und die Leistungen, die wir Ihnen bieten wollen, erfahren?
+           Sie möchten informiert werden, sobald die Plattform offiziell gestartet ist? Dann werden Sie jetzt Teil von unserem Projekt! 😊 </p>
             <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
             <div id="mc_embed_signup">
               <form action="https://gmail.us6.list-manage.com/subscribe/post?u=2b5a8959555ecbcebd4bfb52e&amp;id=77122ce9ea"

@@ -100,9 +100,7 @@ const routes = [
             ¿Luchas a diario por los valores?</p>
             <h3 class="h3" id="text2">¡Entonces merecés que te conozcan! </h3>
             <!-- <h1 class="h1">Netikoo</h1> -->
-            <p id="text3">Nuestro proyecto: construir una red de apoyo a proyectos éticos en todo tipo de industrias. \n
-            Por favor, ayúdanos a entender mejor tus necesidades rellenando el siguiente cuestionario, esto nos permitirá construir
-            la solución perfecta para usted.</p>
+            <p id="text3">Nuestro proyecto: construir una red de apoyo a proyectos éticos en todo tipo de industrias.  </p>
             <p id="text4">Por favor, ayúdenos a entender mejor sus necesidades rellenando el siguiente cuestionario, esto nos permitirá construir
             la solución perfecta para usted.</p>
             <div class="group-horizontal">
@@ -179,18 +177,15 @@ const routes = [
           <!-- <div class="image"><img src="./img/casa-01.png" width="150px" alt="Imagen de una casa con paneles solares"></div> -->
           <div class="group-column">
             <p id="siteContent">
-              Vous êtes passionné par le développement durable ? \n
-              Vous êtes une entreprise, une association, un expert ou un particulier et vous souhaitez contribuer à la construction d'un monde meilleur ? \n
+              Le développement durable vous passionne ? \n
+              Vous êtes une entreprise, une association, un expert ou un particulier et vous souhaitez contribuer à la construction d'un monde meilleur ?  \n
               Vous vous battez au quotidien pour des valeurs ?
             </p>
-            <h3 class="h3" id="text2">Alors vous méritez d'être connu !</h3>
+            <h3 class="h3" id="text2">Alors votre projet mérite d'être connu !</h3>
 
             <!-- <h1 class="h1">Netikoo</h1> -->
-            <p id="text3">Notre projet : construire un réseau pour soutenir des projets éthiques dans tous types d'industries. \n
-            Aidez-nous à mieux comprendre vos besoins en remplissant le questionnaire ci-dessous, cela nous permettra de construire
-            la solution parfaite pour vous !</p>
-            <p id="text4">Veuillez nous aider à mieux comprendre vos besoins en remplissant le questionnaire suivant, cela nous permettra de construire
-            la solution parfaite pour vous !</p>
+            <p id="text3">Notre objectif : construire un réseau pour soutenir des projets éthiques dans tous types d'industries.</p>
+            <p id="text4">Aidez-nous à mieux comprendre vos besoins en remplissant le questionnaire suivant, cela nous permettra de construire la solution parfaite pour vous !</p>
             <div class="group-horizontal">
               <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=af3385bbc5"><button class="home-bottom">  Français </button></a>
               <a href="https://us6.list-manage.com/survey?u=2b5a8959555ecbcebd4bfb52e&id=6bc967be47"><button class="home-bottom">  Español </button></a>
@@ -206,7 +201,7 @@ const routes = [
     </div><div class="description">
       <div class="wrapper">
         <div class="group-column">
-          <h3 class="subtitle" id="titleForm">Faites partie des membres de Netikoo ! </h3>
+          <h3 class="subtitle" id="titleForm">Rejoignez nos membres de Netikoo !</h3>
           <!-- <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, provident facere quaerat explicabo libero saepe harum delectus debitis ex molestiae suscipit similique alias aliquid hic sit minus, nemo optio tenetur.</p> -->
             <!-- Begin Mailchimp Signup Form -->
             <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
@@ -247,7 +242,7 @@ const routes = [
                   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
                       name="b_2b5a8959555ecbcebd4bfb52e_77122ce9ea" tabindex="-1" value=""></div>
-                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                  <div class="clear"><input type="submit" value="Je m'inscris" name="subscribe" id="mc-embedded-subscribe"
                   class="home-bottom"></div>
                 </div>
               </form>
@@ -271,10 +266,8 @@ const routes = [
               Sie sind ein Unternehmen, ein Verband, ein Experte oder eine Einzelperson und wollen einen Beitrag zum Aufbau einer besseren Welt leisten? \n
               Kämpfen Sie täglich für Werte?
             </p>
-            <h3 class="h3" id="text2">Dann haben Sie es verdient, bekannt zu werden!</h3>
-
-            <!-- <h1 class="h1">Netikoo</h1> -->
-            <p id="text3">Unser Projekt: Aufbau eines Netzwerks zur Unterstützung ethischer Projekte in allen Arten von Branchen.</p>
+            <h3 class="h3" id="text2">Dann sollte Ihr Projekt bekannt sein!</h3>
+            <p id="text3">Unser Ziel: Aufbau eines Netzwerks zur Unterstützung ethischer Projekte in allen Arten von Branchen.</p>
             <p id="text4">Bitte helfen Sie uns, Ihre Bedürfnisse besser zu verstehen, indem Sie den folgenden Fragebogen ausfüllen, so können wir
             die perfekte Lösung für Sie!</p>
             <div class="group-horizontal">
